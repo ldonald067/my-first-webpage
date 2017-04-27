@@ -1,0 +1,25 @@
+h2 {
+  color: pink;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  font-family: fantasy;
+
+}
+
+ul {
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+
+body {
+  background-image: url(https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif); 
+
+}
