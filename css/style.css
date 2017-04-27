@@ -1,0 +1,24 @@
+h1 {
+  color: #7af442;
+
+}
+
+p {
+  font-style: oblique;
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{
+	width: 100%;
+	height: 100px;
+	background-image: url(https://68.media.tumblr.com/e4131c661b9f4c13c3ee5b39b528ccd4/tumblr_nmli0vlBty1sdqemdo1_500.gif);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
